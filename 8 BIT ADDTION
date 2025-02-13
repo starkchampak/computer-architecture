@@ -1,0 +1,6 @@
+LDA 3000      ; Load the value from memory location 3000H into the accumulator  
+MOV B, A      ; Move the value from the accumulator to register B  
+LDA 3001      ; Load the value from memory location 3001H into the accumulator  
+ADD B         ; Add the value in register B to the accumulator  
+STA 3002      ; Store the result at memory location 3002H  
+HLT           ; Halt the program execution  
